@@ -1,7 +1,10 @@
 ---
 title: Hadoop文件读取问题定位分析
 date: 2019-01-31 18:06:56
-tags: hadoop
+categories:
+  - hadoop
+tags:
+  - hadoop
 ---
 ## 问题描述
 
