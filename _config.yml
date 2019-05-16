@@ -89,3 +89,8 @@ leancloud_counter_security:
   app_key: hggh71p3Xi7vB7GP1CR4J64N
   username: arthurzwl
   password:
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
