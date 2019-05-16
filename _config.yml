@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 风逝的技术人生
+title: Arthur 的技术人生
 subtitle: C'est la vie.
 description:
 keywords:
 author: Arthur Zhang
-language: zh
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -78,6 +78,14 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:arthurzwl/arthurzwl.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:arthurzwl/arthurzwl.github.io.git
+    branch: master
+  - type: leancloud_counter_security_sync
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: 4LB3UKF9gSKh63q4b7XBcvKp-gzGzoHsz
+  app_key: hggh71p3Xi7vB7GP1CR4J64N
+  username: arthurzwl
+  password:
